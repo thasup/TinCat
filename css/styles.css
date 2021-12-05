@@ -9,6 +9,14 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    /* font-weight: bold !important; */
+}
+
+h3 {
+    font-weight: bold !important;
+}
+
 #title {
     background-color: #ff4c68;
 }
@@ -37,7 +45,7 @@ h1 {
 }
 
 .container-fluid {
-    padding: 5% !important;
+    padding: 2% 5% !important;
 }
 
 .container {
@@ -57,6 +65,10 @@ h1 {
 }
 
 /* feature */
+#features {
+    margin: 10% 0% !important;
+}
+
 .feature-icon {
     color: #ff4c68;
     margin-bottom: 1.2rem;
@@ -64,10 +76,6 @@ h1 {
 
 .feature-icon:hover {
     color: #fa1414;
-}
-
-h3 {
-    font-weight: bold !important;
 }
 
 .feature-box p {
@@ -78,4 +86,27 @@ h3 {
 #brand {
     font-family: 'Pacifico', cursive;
     font-weight: bold;
+}
+
+#testimonials {
+    padding: 5% 5% !important;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* press */
+#press {
+    padding: 0% 5% 5% !important;
+    background-color: #ff4c68;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 0px 40px;
 }
