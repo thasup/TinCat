@@ -13,9 +13,20 @@ h1 {
     background-color: #ff4c68;
 }
 
+/* Navigation Bar*/
 .navbar {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.5rem;
+    padding: 3em 0em;
+}
+
+.container-lg {
+    margin-left: 0px !important;
+    padding: 0px !important;
+}
+
+.nav-link {
+    margin-right: 10px;
 }
 
 #logo {
@@ -26,7 +37,11 @@ h1 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 5% !important;
+}
+
+.container {
+    padding: 5% 0% !important;
 }
 
 .backspace {
@@ -38,4 +53,5 @@ h1 {
     font-size: 3rem;  
     line-height: 1.5;  
     font-weight: 900;
+    color: white;
 }
