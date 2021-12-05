@@ -9,10 +9,6 @@ h1 {
     font-weight: 900;
 }
 
-h2 {
-    /* font-weight: bold !important; */
-}
-
 h3 {
     font-weight: bold !important;
 }
@@ -56,12 +52,17 @@ h3 {
     margin-left: 5px;
 }
 
+/* greeting */
 #greeting {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3.5rem;  
     line-height: 1.5;  
     font-weight: 900;
     color: white;
+}
+
+#greeting div:first-child {
+    margin-bottom: 50px;
 }
 
 /* feature */
@@ -94,10 +95,18 @@ h3 {
     color: white;
 }
 
+.testimonial-text{
+    padding: 0px 150px;
+}
+
 .testimonial-img {
     width: 10%;
     border-radius: 50%;
     margin: 15px;
+}
+
+.carousel-item em {
+    font-size: 1.15rem;
 }
 
 /* press */

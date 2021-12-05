@@ -17,6 +17,7 @@
 
 <body>
 
+  <!-- Title -->
   <section class="container-fluid" id="title">
 
     <!-- Nav Bar -->
@@ -50,13 +51,11 @@
       </div>
     </nav>
 
-
-
-    <!-- Title -->
-
-    <div class="row container">
+    
+    <!-- Greeting -->
+    <div class="row container" id="greeting">
       <div class="col-lg-6 vstack gap-5">
-        <div id="greeting">Meet new and interesting cats nearby.</div>
+        <div>Meet new and interesting cats nearby.</div>
         <div class="hstack gap-3">
           <button class="btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i><span class="backspace">Download</span></button>
         <button class="btn btn-lg btn-outline-light" type="button"><i class="fab fa-google-play"></i><span class="backspace">Download</span></button>
@@ -98,17 +97,33 @@
 
   <!-- Testimonials -->
 
-  <section class="text-center" id="testimonials">
-
-    <h2>I no longer have to sniff other cats for love. I've found the hottest kitty on <span id="brand">TinCat</span> . Meow.</h2>
-    <img class="testimonial-img" src="images/cat-user.jpg" alt="cat-profile">
-    <em>Goofy, London</em>
-
-    <!-- <h2 class="testimonial-text">My cat used to be so lonely, but with TinCat's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
-  </section>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner text-center" id="testimonials">
+      <div class="carousel-item active">
+        <h2 class="testimonial-text">I no longer have to sniff other cats for love. I've found the hottest kitty on <span id="brand">TinCat</span> . Meow.</h2>
+        <img class="testimonial-img" src="images/cat-user.jpg" alt="cat-profile">
+        <em>Goofy, London</em>
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial-text"><span id="brand">TinCat</span> change my life completely. It is where I found my partner. Love it!</h2>
+        <img class="testimonial-img" src="images/cat-user2.jpg" alt="cat2-profile">
+        <em>Mimi, New Orleans</em>
+      </div>
+      <div class="carousel-item">
+        <h2 class="testimonial-text">My cat used to be so lonely, but with <span id="brand">TinCat</span>'s help, they've found the love of their life. I think.</h2>
+        <img class="testimonial-img" src="images/lady-img.jpg" alt="lady-profile">
+        <em>Beverly, Illinois</em>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
   <!-- Press -->
