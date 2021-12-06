@@ -79,9 +79,22 @@ p {
     margin-bottom: 50px;
 }
 
+#greeting div:last-child {
+    margin-bottom: 150px;
+}
+
+#phone{
+    width: 30%;
+    max-width: 400px;
+    position: absolute;
+    z-index: 2;
+}
+
 /* feature */
 #features {
-    margin: 10% 0% !important;
+    margin: 15% 0% !important;
+    background-color: white;
+    position: relative;
 }
 
 .feature-icon {
@@ -131,7 +144,7 @@ p {
 
 .press-logo {
     width: 15%;
-    margin: 0px 40px;
+    margin: 25px 40px 0px ;
 }
 
 /* pricing */
@@ -150,4 +163,28 @@ p {
 
 #price-tag {
     margin-top: 15px;
+}
+
+/* Tablet and Mobile */
+@media screen and (max-width: 992px) {
+
+    #greeting div:first-child {
+        text-align: center;
+    }
+    
+    #greeting div:last-child {
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    #phone{
+        width: 300px;
+        position: static;
+        z-index: 1;
+    }
+    
+    /* feature */
+    #features {
+        position: static;
+    }
 }
