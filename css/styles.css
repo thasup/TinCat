@@ -3,7 +3,7 @@ body {
 }
 
 h1 {  
-    font-family: 'Montserrat-Black, sans-serif';  
+    color: white;
     font-size: 3rem;  
     line-height: 1.5;  
     font-weight: 900;
@@ -38,11 +38,6 @@ p {
     padding: 3em 0em;
 }
 
-.container-lg {
-    margin-left: 0px !important;
-    padding: 0px !important;
-}
-
 .nav-link {
     margin-right: 10px;
 }
@@ -55,11 +50,13 @@ p {
 }
 
 .container-fluid {
-    padding: 2% 5% !important;
+    padding: 2% 8% !important;
 }
 
 .container {
     padding: 5% 0% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 .backspace {
@@ -73,6 +70,7 @@ p {
     line-height: 1.5;  
     font-weight: 900;
     color: white;
+    max-width: 100% !important;
 }
 
 #greeting div:first-child {
@@ -165,8 +163,30 @@ p {
     margin-top: 15px;
 }
 
+/* Call to Action */
+#cta {
+    background-color: #ff4c68;
+}
+
+#cta h1 {
+    margin: 50px 0px;
+}
+
+#cta div {
+    margin-bottom: 50px;
+}
+
+/* Footer */
+#footer {
+    background-color: white;
+    margin: 30px 0px;
+}
+
 /* Tablet and Mobile */
 @media screen and (max-width: 992px) {
+    .container-fluid {
+        padding: 2% 4% !important;
+    }
 
     #greeting div:first-child {
         text-align: center;
