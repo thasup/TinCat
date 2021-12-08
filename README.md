@@ -4,7 +4,7 @@
 # TinCat
 
 <!-- Describe your project in brief -->
-A single landing page that shows 'TinCat' is an application for cats who looking for hot kitties.
+A single landing page that shows 'TinCat', an application for cats who looking for hot kitties by wrapping all pages with the Bootstrap CSS framework.
 
 # Table of contents
 
