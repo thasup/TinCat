@@ -5,7 +5,8 @@
 
 <!-- Describe your project in brief -->
 A single landing page that shows 'TinCat', an application for cats who looking for hot kitties by wrapping all pages with the Bootstrap CSS framework.  
-[link](https://thasup.github.io/TinCat/)
+
+[TinCat Link](https://thasup.github.io/TinCat/)
 
 # Table of contents
 
