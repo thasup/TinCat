@@ -4,21 +4,16 @@
 # TinCat
 
 <!-- Describe your project in brief -->
-A single landing page that shows 'TinCat', an application for cats who looking for hot kitties by wrapping all pages with the Bootstrap CSS framework.
+A single landing page that shows 'TinCat', an application for cats who looking for hot kitties by wrapping all pages with the Bootstrap CSS framework.  
+[link](https://thasup.github.io/TinCat/)
 
 # Table of contents
 
 - [TinCat](#tincat)
 - [Table of contents](#table-of-contents)
-- [Demo Preview](#demo-preview)
 - [Features](#features)
 - [Languages](#languages)
 - [Technology](#technology)
-- 
-# Demo Preview
-[(Back to top)](#table-of-contents)
-
-[TinCat Landing Page](https://thasup.github.io/TinCat/)
 
 # Features
 [(Back to top)](#table-of-contents)
@@ -39,4 +34,4 @@ A single landing page that shows 'TinCat', an application for cats who looking f
 
 - html
 - css
-- bootstrap
+- bootstrap framework
