@@ -19,7 +19,8 @@
     "homepage": "https://github.com/thasup/TinCat#readme",
     "dependencies": {
         "@popperjs/core": "^2.11.0",
-        "gulp-sass": "^5.1.0"
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.47.0"
     },
     "devDependencies": {
         "gulp": "^4.0.2"

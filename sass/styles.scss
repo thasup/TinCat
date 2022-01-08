@@ -1,0 +1,213 @@
+:root {
+    /* Color pallete: */
+    --main-theme: #ff4c68;
+    --sub-theme: #fa1414;
+    --pure-white: #fff;
+    --pure-black: #000;
+    --light-grey: #8f8f8f;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-weight: bold !important;
+}
+
+.container-fluid {
+    padding: 2% 8% !important;
+}
+
+p {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.colored-section {
+    background-color: var(--main-theme);
+    color: var(--pure-white);
+}
+
+.white-section {
+    background-color: var(--pure-white);
+}
+
+#brand {
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+}
+
+/* Navigation Bar*/
+.navbar {
+    font-size: 1.5rem;
+    padding: 3em 0em;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+#logo {
+    font-family: "Pacifico", cursive;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--pure-white);
+}
+
+.backspace {
+    margin-left: 5px;
+}
+
+/* Greeting Page */
+#greeting {
+    font-size: 3.5rem;
+    font-weight: 900;
+    max-width: 100% !important;
+    padding: 5% 0% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+    div:first-child {
+        margin-bottom: 50px;
+    }
+
+    div:last-child {
+        margin-bottom: 150px;
+    }
+}
+
+#phone {
+    width: 30%;
+    max-width: 400px;
+    position: absolute;
+    z-index: 2;
+}
+
+/* feature */
+#features {
+    margin: 15% 0% !important;
+    position: relative;
+}
+
+.feature-icon {
+    color: var(--main-theme);
+    margin-bottom: 1.2rem;
+
+    &:hover {
+        color: var(--sub-theme);
+    }
+}
+
+.feature-box p {
+    color: var(--light-grey);
+}
+
+/* testimonials */
+#testimonials {
+    padding: 5% 5% !important;
+}
+
+.testimonial-text {
+    padding: 0px 150px;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.carousel-item em {
+    font-size: 1.15rem;
+}
+
+/* press */
+#press {
+    padding: 0% 5% 5% !important;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 25px 40px 0px;
+}
+
+/* pricing */
+#pricing {
+    margin: 10% 0% !important;
+}
+
+#price-deck {
+    .card {
+        margin: 30px 20px;
+        padding: 0px !important;
+    }
+
+    .card-header {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}
+
+#price-tag {
+    margin-top: 15px;
+}
+
+/* Call to Action */
+#cta {
+    h1 {
+        margin: 50px 0px;
+    }
+
+    div {
+        margin-bottom: 50px;
+    }
+}
+
+.big-head {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* Footer */
+#footer {
+    margin: 30px 0px;
+
+    a {
+        color: var(--pure-black);
+
+        &:hover {
+            color: var(--light-grey);
+        }
+    }
+}
+
+/* Tablet and Mobile */
+@media screen and (max-width: 992px) {
+    .container-fluid {
+        padding: 2% 4% !important;
+    }
+
+    #greeting div:first-child {
+        text-align: center;
+    }
+
+    #greeting div:last-child {
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    #phone {
+        width: 300px;
+        position: static;
+        z-index: 1;
+    }
+
+    /* feature */
+    #features {
+        position: static;
+    }
+}
