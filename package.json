@@ -18,13 +18,17 @@
     },
     "homepage": "https://github.com/thasup/TinCat#readme",
     "dependencies": {
-        "@popperjs/core": "^2.11.0",
-        "browser-sync": "^2.27.7",
-        "gulp-sass": "^5.1.0",
-        "sass": "^1.47.0"
+        "@popperjs/core": "^2.11.0"
     },
     "devDependencies": {
+        "browser-sync": "^2.27.7",
         "gulp": "^4.0.2",
-        "gulp-autoprefixer": "^8.0.0"
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-jasmine-browser": "^4.1.0",
+        "gulp-sass": "^5.1.0",
+        "jasmine-core": "^4.0.0",
+        "puppeteer": "^13.0.1",
+        "sass": "^1.47.0"
     }
 }

@@ -39,6 +39,6 @@ A single landing page that shows 'TinCat', an application for cats who looking f
 [(Back to top)](#table-of-contents)
 
 -   HTML
--   CSS
+-   SCSS
 -   Bootstrap Framework
 -   Gulp
