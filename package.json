@@ -19,10 +19,12 @@
     "homepage": "https://github.com/thasup/TinCat#readme",
     "dependencies": {
         "@popperjs/core": "^2.11.0",
+        "browser-sync": "^2.27.7",
         "gulp-sass": "^5.1.0",
         "sass": "^1.47.0"
     },
     "devDependencies": {
-        "gulp": "^4.0.2"
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0"
     }
 }

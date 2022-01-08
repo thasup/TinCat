@@ -126,6 +126,9 @@ p {
 #press {
   padding: 0% 5% 5% !important;
 }
+#press a img {
+  margin-top: 15px;
+}
 
 .press-logo {
   width: 15%;
@@ -183,7 +186,6 @@ p {
   #greeting div:first-child {
     text-align: center;
   }
-
   #greeting div:last-child {
     justify-content: center;
     margin-bottom: 0px;

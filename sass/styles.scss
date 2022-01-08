@@ -128,6 +128,12 @@ p {
 /* press */
 #press {
     padding: 0% 5% 5% !important;
+
+    a {
+        img {
+            margin-top: 15px;
+        }
+    }
 }
 
 .press-logo {
@@ -191,13 +197,14 @@ p {
         padding: 2% 4% !important;
     }
 
-    #greeting div:first-child {
-        text-align: center;
-    }
-
-    #greeting div:last-child {
-        justify-content: center;
-        margin-bottom: 0px;
+    #greeting {
+        div:first-child {
+            text-align: center;
+        }
+        div:last-child {
+            justify-content: center;
+            margin-bottom: 0px;
+        }
     }
 
     #phone {
