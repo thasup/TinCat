@@ -1,0 +1,27 @@
+{
+    "name": "tincat",
+    "description": "<!-- Add banner here -->\r ![Project Preview](images/tincat_preview.gif)",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thasup/TinCat.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thasup/TinCat/issues"
+    },
+    "homepage": "https://github.com/thasup/TinCat#readme",
+    "dependencies": {
+        "@popperjs/core": "^2.11.0",
+        "gulp-sass": "^5.1.0"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2"
+    }
+}
